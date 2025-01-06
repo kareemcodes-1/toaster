@@ -1,0 +1,12 @@
+.toaster{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    /* transform: translateX(20rem); */
+    width: 20rem;
+    height: 5rem;
+    border-radius: .5rem;
+    background: white;
+    border: 1px solid #33333329;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
