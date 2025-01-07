@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo app</title>
+    <title>Toaster app</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,9 +11,16 @@
     <div>
         <h1>Toaster notfication</h1>
 
-        <button type="button" onclick="Toaster('success')">Toast success</button>
-        <button type="button" onclick="Toaster('error')">Toast error</button>
+        <button type="button" onclick="showToaster('success')">
+           Toast success
+        </button>
+        <button type="button" onclick="showToaster('error')">Toast error</button>
+
+        <div class="toaster">
+
+        </div>
     </div>
+
     
     <script src="index.js"></script>
 </body>
